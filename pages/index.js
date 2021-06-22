@@ -56,8 +56,8 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          Ajude o {' '} Corre Solidário
+          /*<img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} /> */
         </a>
       </footer>
     </div>
