@@ -11,7 +11,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Bem-vindo ao <a href="https://coresolidario.vercel.app/">Corre Solidário!</a>
+          O Frio está aí<a href="https://coresolidario.vercel.app/">!</a>
         </h1>
 
         <p className={styles.description}>
@@ -20,9 +20,9 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://coresolidario.vercel.app/campanhadeinverno" className={styles.card}>
+            <h3>Campanha de inverno &rarr;</h3>
+            <p>Ajude-nos a distribuir cobertores e agasalhos para quem precisa.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
