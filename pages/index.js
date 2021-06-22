@@ -11,12 +11,12 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Bem-vindo ao <a href="https://nextjs.org">Core Solidário!</a>
+          Bem-vindo ao <a href="https://coresolidario.vercel.app/">Corre Solidário!</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Por mais amor {' '}
+          <code className={styles.code}>em JF</code>
         </p>
 
         <div className={styles.grid}>
