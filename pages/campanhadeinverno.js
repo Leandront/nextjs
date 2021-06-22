@@ -15,36 +15,36 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Por aqueles que mais precisam {' '}
-          <code className={styles.code}>em JF</code>
+          Não tem um cobertor sobrando, compre um para doar seguindo os passos abaixo: {' '}
+          <code className={styles.code}></code>
         </p>
 
         <div className={styles.grid}>
           <a href="https://coresolidario.vercel.app/campanhadeinverno" className={styles.card}>
-            <h3>Campanha de inverno &rarr;</h3>
-            <p>Ajude-nos a distribuir cobertores e agasalhos para quem precisa.</p>
+            <h3>Selecionamos alguns sites conhecidos &rarr;</h3>
+            <p>Escolha uma das opções para compra um cobertor.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="" className={styles.card}>
+            <h3>Endereço de entrega &rarr;</h3>
+            <p>Ao comprar coloque o nosso endereço para recebermos o cobertor!</p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://lista.mercadolivre.com.br/cobertor-mata-para-doa%C3%A7%C3%A3o#D[A:cobertor%20mata%20para%20doa%C3%A7%C3%A3o]"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>Mercado Livre &rarr;</h3>
+            <p>Para ver as opções do Mercado Livre clique aqui.</p>
+          </a>
+
+          <a
+            href="https://www.americanas.com.br/produto/3293039207?pfm_carac=cobertor-manta&pfm_index=8&pfm_page=search&pfm_pos=grid&pfm_type=search_page&tamanho=%5BCasal%5D"
+            className={styles.card}
+          >
+            <h3>Lojas Americanas &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+            Para ver as opções nas Lojas Americanas clique aqui.
             </p>
           </a>
         </div>
@@ -52,12 +52,12 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://coresolidario.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          Ajude o {' '} Corre Solidário
+          
         </a>
       </footer>
     </div>
